@@ -1,0 +1,29 @@
+{
+  "name": "firestore-dummy-data",
+  "version": "1.0.0",
+  "description": "Upload dummy data to firestore",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharukaHS/firestore-dummy-data-uploader.git"
+  },
+  "keywords": [
+    "firebase",
+    "firestore",
+    "upload"
+  ],
+  "author": "CharukaHS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CharukaHS/firestore-dummy-data-uploader/issues"
+  },
+  "homepage": "https://github.com/CharukaHS/firestore-dummy-data-uploader#readme",
+  "dependencies": {
+    "cli-progress": "^3.6.0",
+    "firebase-admin": "^8.10.0",
+    "random-words": "^1.1.0"
+  }
+}

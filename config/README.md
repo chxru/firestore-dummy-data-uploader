@@ -1,0 +1,3 @@
+# How to get serviceAccountKey.json
+
+To use the Firebase Admin SDK on your own server (or any other Node.js environment), use a [service account](https://cloud.google.com/compute/docs/authentication). Go to [IAM & admin > Service accounts](https://console.cloud.google.com/iam-admin/serviceaccounts) in the Cloud Platform Console. Generate a new private key and save the JSON file. Save the JSON file in here as serviceAccountKey.json.
