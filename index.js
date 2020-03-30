@@ -18,7 +18,8 @@ bar.start(ndocs, 0);
 for (let i = 0; i < ndocs; i++) {
   const obj = {
     context: randomWords({ min: 10, max: 30, join: " " }),
-    user: randomWords({ exactly: 2, join: " " })
+    user: randomWords({ exactly: 2, join: " " }),
+    timestamp: admin.firestore.FieldValue.serverTimestamp(),
   };
   db.collection(collection)
     .doc()
